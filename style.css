@@ -48,8 +48,8 @@ body {
 }
 
 .menu a:active {
-    background-color: darkblue;
-    color: white;
+    background-color: linear-gradient(#F2EED7,#FEFAE0);
+    color: #798645;
 }
 
 /* Dropdown */
@@ -58,7 +58,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: rgb(193, 193, 215);
+    background-color: #FEFAE0);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     list-style: none;
     padding: 0;
