@@ -44,7 +44,7 @@ body {
 /* Cor ao passar o mouse e ao clicar */
 .menu a:hover {
     background-color: linear-gradient(#626F47,#798645);
-    color: white;
+    color: black;
 }
 
 .menu a:active {
@@ -73,7 +73,7 @@ body {
 .dropdown-content li a {
     display: block;
     padding: 10px;
-    color: blue;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
