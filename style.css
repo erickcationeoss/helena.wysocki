@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: #798645;
     padding: 10px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -148,7 +148,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 .escola{
-    background-image: linear-gradient(#40A2E3,#7FC2EF);
+    background-image: linear-gradient(#626F47,#798645);
     color: white;
     display: flex;
     justify-content:center;
