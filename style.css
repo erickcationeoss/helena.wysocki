@@ -43,8 +43,8 @@ body {
 
 /* Cor ao passar o mouse e ao clicar */
 .menu a:hover {
-    background-color: linear-gradient(#626F47,#798645);
-    color: black;
+    background-color: linear-gradient(#F2EED7,#FEFAE0);
+    color: #798645;
 }
 
 .menu a:active {
