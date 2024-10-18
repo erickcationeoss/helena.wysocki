@@ -35,7 +35,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: blue;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 10px 15px;
     transition: background-color 0.3s, color 0.3s;
@@ -58,13 +58,32 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #FEFAE0);
+    background-color: (#FEFAE0);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     list-style: none;
     padding: 0;
     margin: 0;
     z-index: 1000;
 }
+
+.body {
+    background-image: linear-gradient(#626F47,#798645);
+    color: white;
+    display: flex;
+    justify-content:center;
+    padding: 24px 0;
+    text-align:center;
+    display:block;
+    }
+    .texto-corpo{
+    padding: 50px;
+    text-align: center;
+    }
+    
+    .link{
+    color: #ffffff;
+    text-decoration: none;
+    }
 
 .dropdown-content li {
     width: 200px;
