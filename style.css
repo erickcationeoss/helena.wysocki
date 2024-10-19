@@ -43,13 +43,13 @@ body {
 
 /* Cor ao passar o mouse e ao clicar */
 .menu a:hover {
-    background-color: linear-gradient(#F2EED7,#FEFAE0);
-    color: #798645;
+    background-color: lightgreen;
+    color: #000000;
 }
 
 .menu a:active {
-    background-color: linear-gradient(#F2EED7,#FEFAE0);
-    color: #798645;
+    background-color: greenyellow;
+    color: #000000;
 }
 
 /* Dropdown */
@@ -67,16 +67,16 @@ body {
 }
 
 .body {
-    background-image: linear-gradient(#626F47,#798645);
-    color: white;
+    background-image: (#F2EED7);
+    color: rgb(32, 32, 32);
     display: flex;
     justify-content:center;
-    padding: 24px 0;
+    padding: 60px 0;
     text-align:center;
     display:block;
     }
     .texto-corpo{
-    padding: 50px;
+    padding: 60px;
     text-align: center;
     }
     
