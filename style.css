@@ -79,11 +79,26 @@ body {
     padding: 60px;
     text-align: center;
     }  
-.logo_rodape{
-height: 80px;
-padding: 12px 0;
-
-}
+    .carouseles{
+        position: relative;
+        width: 100%; /* Garante que o carrossel ocupe a largura do container */
+        max-width: 1920px; /* Limita a largura máxima */
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+    }
+    
+    .carouseles-images {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .carouseles-images img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
 .linkM{
     color: #ffffff;
     text-decoration: none;
