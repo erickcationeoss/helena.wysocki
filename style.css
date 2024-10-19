@@ -58,7 +58,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: (#FEFAE0);
+    background-color: (#d8d8d8);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     list-style: none;
     padding: 0;
@@ -78,12 +78,7 @@ body {
     .texto-corpo{
     padding: 60px;
     text-align: center;
-    }
-    
-    .link{
-    color: #ffffff;
-    text-decoration: none;
-    }
+    }  
 
 .dropdown-content li {
     width: 200px;
