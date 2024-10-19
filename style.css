@@ -110,21 +110,21 @@ padding: 12px 0;
 }
 
 /* Links das redes sociais */
+/* Links das redes sociais */
 .social-links {
     display: flex;
     gap: 10px;
-}
-
-.social-links img {
-    height: 50px;
+    }
+    .social-links img {
+    height: 30px;
     transition: transform 0.3s;
-}
-
-.social-links img:hover {
+    
+    }
+    .social-links img:hover {
     transform: scale(1.1);
-}
+    }
 
-
+    
 /* Galeria */
 .carousel {
     position: relative;
