@@ -43,7 +43,7 @@ body {
 
 /* Cor ao passar o mouse e ao clicar */
 .menu a:hover {
-    background-color: lightgreen;
+    background-color: #798352;
     color: #000000;
 }
 
@@ -97,8 +97,8 @@ body {
 }
 
 .dropdown-content li a:hover {
-    background-color: lightblue;
-    color: white;
+    background-color: 798352;
+    color: rgb(0, 0, 0);
 }
 
 .dropdown:hover .dropdown-content {
