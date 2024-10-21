@@ -134,7 +134,9 @@ body {
     text-align: center;
     }  
     .texto-apresADS{
-    
+    display:flex;
+    text-align:center;
+    justify-content: center;
     }
 
 
