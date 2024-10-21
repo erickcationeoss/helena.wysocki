@@ -66,7 +66,7 @@ body {
     z-index: 1000;
 }
 /* Galeria */
-.carouselADS {
+.carousel {
     position: relative;
     width: 100%; /* Garante que o carrossel ocupe a largura do container */
     max-width: 1920px; /* Limita a largura máxima */
@@ -76,12 +76,12 @@ body {
     margin-top: 20px;
 }
 
-.carouselADS-images {
+.carousel-images {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
 
-.carouselADS-images img {
+.carousel-images img {
     width: 100%;
     border-radius: 10px;
 }
