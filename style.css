@@ -212,6 +212,11 @@ body {
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+
+
+
+
 .escola{
     background-image: linear-gradient(#000000,#000000);
     color: white;
