@@ -32,3 +32,20 @@ let currentIndex = 0;
             const offset = -currentIndex1 * 100; // Move o carrossel
             images.style.transform = `translateX(${offset}%)`;
         }
+
+        let currentIndexADS = 0;
+
+        function moveCarouselADS(direction) {
+            const images = document.querySelector('.carouselADS-images');
+            const totalImages = images.children.length;
+            currentIndexADS += direction;
+
+            if (currentIndexADS < 0) {
+                currentIndexADS = totalImages - 1; // Vai para a última imagem
+            } else if (currentIndexADS >= totalImages) {
+                currentIndexADS = 0; // Volta para a primeira imagem
+            }
+
+            const offset = -currentIndexADS * 100; // Move o carrossel
+            images.style.transform = `translateX(${offset}%)`;
+        }
