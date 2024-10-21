@@ -110,7 +110,7 @@ body {
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-.body {
+.bodyADS {
     background-image: linear-gradient(#0B192C, #1E3E62);
     color: rgb(32, 32, 32);
     display: flex;
@@ -119,7 +119,7 @@ body {
     text-align:center;
     display:block;
     }
-    .texto-corpo{
+    .texto-ADS{
     padding: 60px;
     text-align: center;
     }  
