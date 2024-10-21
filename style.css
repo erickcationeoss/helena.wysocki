@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #798645;
+    background-color: #b4b4b4;
     padding: 10px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -35,7 +35,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     padding: 10px 15px;
     transition: background-color 0.3s, color 0.3s;
@@ -43,13 +43,13 @@ body {
 
 /* Cor ao passar o mouse e ao clicar */
 .menu a:hover {
-    background-color: #798352;
-    color: #000000;
+    background-color: rgb(36, 36, 36);
+    color: #ff6200;
 }
 
 .menu a:active {
-    background-color: greenyellow;
-    color: #000000;
+    background-color: rgb(36, 36, 36);
+    color: #ff8400;
 }
 
 /* Dropdown */
@@ -213,7 +213,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 .escola{
-    background-image: linear-gradient(#626F47,#798645);
+    background-image: linear-gradient(#000000,#000000);
     color: white;
     display: flex;
     justify-content:center;
