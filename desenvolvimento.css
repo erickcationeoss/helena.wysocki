@@ -1,4 +1,4 @@
-/*desenv. sistemas*/
+/* Estilos gerais */
 body {
     margin: 0;
     padding: 0;
@@ -64,16 +64,8 @@ body {
     padding: 0;
     margin: 0;
     z-index: 1000;
+
 }
-
-
-
-
-
-
-
-
-
 
 /* Galeria */
 .carousel {
@@ -120,23 +112,65 @@ body {
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
 .body {
-    background-image: linear-gradient(#0B192C, #1E3E62);
-    color: rgb(32, 32, 32);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: linear-gradient(#091057 #024CAA);
+  justify-content: center;
+  
+}
+
+.title {
+  text-decoration-color: white;
+  text-align: center;
+
+
+
+
+
+
+}
+
+
+/* Links das redes sociais */
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links img {
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.escola{
+    background-image: linear-gradient(#000000,#000000);
+    color: white;
     display: flex;
     justify-content:center;
-    padding: 60px 0;
+    padding: 24px 0;
     text-align:center;
     display:block;
     }
-    .texto-corpo{
-    padding: 60px;
+    .escola-titulo{
+    padding: 50px;
     text-align: center;
-    }  
-    .texto-apresADS{
-    display:flex;
-    text-align:center;
-    justify-content: center;
+    }
+    
+    .link{
+    color: #ffffff;
+    text-decoration: none;
     }
 
-    /* Formação de docentes*/
+  
