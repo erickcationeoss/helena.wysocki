@@ -131,6 +131,11 @@ body {
 
 }
 
+.section2 {
+  justify-content: center;
+  text-align: center;
+}
+
 /* Links das redes sociais */
 .social-links {
     display: flex;
