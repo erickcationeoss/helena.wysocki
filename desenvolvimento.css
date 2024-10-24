@@ -112,21 +112,21 @@ body {
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
+/*corpo*/
 .body {
-  background-image: linear-gradient(#091057 #024CAA);
+  background-color: linear-gradient(#091057 #024CAA);
   justify-content: center;
 }
 
 .title {
-  text-decoration: white;
+  text-decoration-color: white;
   text-align: center;
 }
 
 .section1{
    justify-content: center;
    text-align: center;
-   text-decoration: white;
+   text-decoration-color: white;
 
 
 }
@@ -145,6 +145,8 @@ body {
 .social-links img:hover {
     transform: scale(1.1);
 }
+
+
 
 
 
