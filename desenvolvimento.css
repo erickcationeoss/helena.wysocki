@@ -119,9 +119,10 @@ body {
   justify-content: center;
 }
 
-.title {
+.title1 {
   text-decoration-color: white;
   text-align: center;
+  justify-content: center;
 }
 
 .section1{
